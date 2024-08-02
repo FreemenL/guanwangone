@@ -1,0 +1,39 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.featureSvgSpecial{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom:40px;
+}
+
+.featureSvgSpecial img {
+  display: block;
+  border-radius: 50%;
+}
+
+.specialimg {
+  display: block;
+  border-radius: 0!important;
+}
+
+
+.rotateonhover {  
+  transition: transform 0.5s ease; /* 平滑过渡效果 */  
+  /* 初始状态下不旋转 */  
+  transform: rotate(0deg);  
+}  
+
+.rotateonhover:hover {  
+  /* 鼠标悬停时旋转图片 */  
+  transform: rotate(360deg); /* 或者任何你想要的度数，例如 180deg */  
+}

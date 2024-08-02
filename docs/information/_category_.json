@@ -1,0 +1,8 @@
+{
+  "label": "企业信息",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "企业信息展示"
+  }
+}
